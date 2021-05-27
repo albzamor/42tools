@@ -1,11 +1,13 @@
 {
 	"folders": [
 		{
-			"path": "42cursus/libft"
+			"path": "../cpiscine"
 		},
 		{
-			"path": "Cpiscine"
+			"path": "../42cursus"
+		},
+		{
+			"path": "../libft_ok"
 		}
-	],
-	"settings": {}
+	]
 }
