@@ -1,0 +1,38 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+	  {
+		"type": "cppbuild",
+		"label": "hola",
+		"command": "gcc",
+		"args": [
+			"-g",
+			"${workspaceFolder}/libftprintf.a",
+			"${workspaceFolder}/main.c",
+			"${workspaceFolder}/srcs/aux_conv.c",
+			"${workspaceFolder}/srcs/conv1_c_s_d_u_p.c",
+			"${workspaceFolder}/srcs/conv2_x_percentage.c",
+			"${workspaceFolder}/srcs/evaluate_flags.c",
+			"${workspaceFolder}/srcs/flags_precision.c",
+			"${workspaceFolder}/srcs/flags_spc_zero_-_width_+.c",
+			"${workspaceFolder}/srcs/ft_printf.c",
+			"${workspaceFolder}/srcs/libft_2.c",
+			"${workspaceFolder}/srcs/libft.c",
+			"${workspaceFolder}/srcs/prepare_tab.c",
+			"${workspaceFolder}/srcs/print_alignment.c",
+			"${workspaceFolder}/srcs/struct.c",
+			"${workspaceFolder}/srcs/zero.c",
+			"-o",
+			"${workspaceFolder}/a.out"
+		],
+		"problemMatcher": ["$gcc"],
+		"group": {
+			"kind": "build",
+			"isDefault": true
+		},
+		"options": {
+			"cwd": "${workspaceFolder}"
+		}
+	}
+	]
+}
